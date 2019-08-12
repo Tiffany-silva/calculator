@@ -1,0 +1,82 @@
+
+html{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed';
+}
+#topic{
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left:5px; 
+    padding-bottom: 10px;
+    margin:0;
+
+}
+.tb {
+    border-collapse:collapse;
+    border-spacing:0;
+    margin-left: auto;
+    margin-right:auto;
+    
+    }
+.tg td{
+    padding:30px 50px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black;
+}
+.tg th{
+    font-size:50px;
+    font-weight:normal;
+    padding:50px 200px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:black; 
+    
+}
+.tg .screen{
+  
+    background-color:#000000;
+    color:#ffffff;
+    border-color:#9b9b9b;
+    text-align:left;
+    vertical-align:top;
+    
+}
+
+#calculation{
+    padding: 2%;
+    font-size:30px;
+    text-align: right;
+    padding-top: 80px;
+    
+}
+.tg .numpad{
+     
+    background-color:#c0c0c0;
+    color:#343434;
+    border-color:#9b9b9b;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .operator{
+    
+     background-color:#ff6f00;
+     color:#ffffff;
+     border-color:#f56b00;
+     text-align:center;
+     vertical-align:top
+    }
+.numpad:hover{
+    background-color: rgba(192,192,192, 0.2); 
+}
+
+.operator:hover{
+    background-color: rgba(255, 111, 0,0.5);
+}
+
