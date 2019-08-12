@@ -30,7 +30,7 @@ if(keys){
     }
     if(target.classList.contains("decimal")){
       inputDec(target.innerHTML);
-      
+
     }
     if(target.classList.contains("all-clear")){
      // console.log("all-clear",target.innerHTML);

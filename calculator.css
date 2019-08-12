@@ -25,7 +25,7 @@ html{
     border-width:1px;
     overflow:hidden;
     word-break:normal;
-    border-color:black;
+    
 }
 .tg th{
     font-size:50px;
@@ -55,7 +55,7 @@ html{
     padding-top: 80px;
     
 }
-.tg .numpad{
+.tg .numpad, .decimal, .clear-all{
      
     background-color:#c0c0c0;
     color:#343434;
@@ -72,7 +72,7 @@ html{
      text-align:center;
      vertical-align:top
     }
-.numpad:hover{
+.numpad:hover, .clear-all:hover, .decimal:hover{
     background-color: rgba(192,192,192, 0.2); 
 }
 
